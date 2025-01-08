@@ -36,11 +36,15 @@ namespace HotelServe.Repositories
             return GetAll(sql);
         }
 
-        // 新增會員
+        // 新增員工
         public int AddMember(Member member)
         {
-            string sql = @"INSERT INTO Login (FullName, Email, Countries, Phone, Birth, CreatedAt, Locked)
-                           VALUES (@FullName, @Email, @Countries, @Phone, @Birth, @CreatedAt, @Locked)";
+            string sql = @"
+        INSERT INTO Login (FullName, Email, Countries, Phone, Birth, CreatedAt, Locked, Role)
+        VALUES (@FullName, @Email, @Countries, @Phone, @Birth, @CreatedAt, @Locked, @Role)";
+
+            // 設置 role 默認值為 1
+            member.Role = 1;
             return Add(sql, member);
         }
 

@@ -32,13 +32,14 @@ namespace HotelServe.Services
             return _repository.GetMembersByRole1().ToList();
         }
 
-        // 新增會員
+        // 新增員工
         public bool RegisterMember(Member member)
         {
             // 檢查業務邏輯 (例如：是否重複註冊)
             if (string.IsNullOrEmpty(member.Email))
                 return false;
 
+            member.Role = 1; // 默認設置 role = 1
             _repository.AddMember(member);
             return true;
         }

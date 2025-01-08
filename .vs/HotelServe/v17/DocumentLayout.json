@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\0108\\HotelServe\\HotelServe0107\\HotelServe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E24983BB-613F-4E58-8303-86D9B814A9E0}|HotelServe\\HotelServe.csproj|c:\\users\\user\\desktop\\0108\\hotelserve\\hotelserve0107\\hotelserve\\hotelserve\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E24983BB-613F-4E58-8303-86D9B814A9E0}|HotelServe\\HotelServe.csproj|solutionrelative:hotelserve\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E24983BB-613F-4E58-8303-86D9B814A9E0}|HotelServe\\HotelServe.csproj|c:\\users\\user\\desktop\\0108\\hotelserve\\hotelserve0107\\hotelserve\\hotelserve\\controllers\\backgroundcontrollers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24983BB-613F-4E58-8303-86D9B814A9E0}|HotelServe\\HotelServe.csproj|solutionrelative:hotelserve\\controllers\\backgroundcontrollers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E24983BB-613F-4E58-8303-86D9B814A9E0}|HotelServe\\HotelServe.csproj|c:\\users\\user\\desktop\\0108\\hotelserve\\hotelserve0107\\hotelserve\\hotelserve\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E24983BB-613F-4E58-8303-86D9B814A9E0}|HotelServe\\HotelServe.csproj|solutionrelative:hotelserve\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E24983BB-613F-4E58-8303-86D9B814A9E0}|HotelServe\\HotelServe.csproj|c:\\users\\user\\desktop\\0108\\hotelserve\\hotelserve0107\\hotelserve\\hotelserve\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24983BB-613F-4E58-8303-86D9B814A9E0}|HotelServe\\HotelServe.csproj|solutionrelative:hotelserve\\services\\memberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E24983BB-613F-4E58-8303-86D9B814A9E0}|HotelServe\\HotelServe.csproj|c:\\users\\user\\desktop\\0108\\hotelserve\\hotelserve0107\\hotelserve\\hotelserve\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E24983BB-613F-4E58-8303-86D9B814A9E0}|HotelServe\\HotelServe.csproj|solutionrelative:hotelserve\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E24983BB-613F-4E58-8303-86D9B814A9E0}|HotelServe\\HotelServe.csproj|c:\\users\\user\\desktop\\0108\\hotelserve\\hotelserve0107\\hotelserve\\hotelserve\\controllers\\backgroundcontrollers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E24983BB-613F-4E58-8303-86D9B814A9E0}|HotelServe\\HotelServe.csproj|solutionrelative:hotelserve\\controllers\\backgroundcontrollers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E24983BB-613F-4E58-8303-86D9B814A9E0}|HotelServe\\HotelServe.csproj|c:\\users\\user\\desktop\\0108\\hotelserve\\hotelserve0107\\hotelserve\\hotelserve\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24983BB-613F-4E58-8303-86D9B814A9E0}|HotelServe\\HotelServe.csproj|solutionrelative:hotelserve\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,28 +62,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Member.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\0108\\HotelServe\\HotelServe0107\\HotelServe\\HotelServe\\Models\\Member.cs",
               "RelativeDocumentMoniker": "HotelServe\\Models\\Member.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\0108\\HotelServe\\HotelServe0107\\HotelServe\\HotelServe\\Models\\Member.cs",
               "RelativeToolTip": "HotelServe\\Models\\Member.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T05:36:00.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MemberService.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\0108\\HotelServe\\HotelServe0107\\HotelServe\\HotelServe\\Services\\MemberService.cs",
               "RelativeDocumentMoniker": "HotelServe\\Services\\MemberService.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\0108\\HotelServe\\HotelServe0107\\HotelServe\\HotelServe\\Services\\MemberService.cs",
               "RelativeToolTip": "HotelServe\\Services\\MemberService.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwEQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T05:26:53.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T05:26:53.839Z"
             },
             {
               "$type": "Document",
@@ -93,21 +92,22 @@
               "RelativeDocumentMoniker": "HotelServe\\Repositories\\MemberRepository.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\0108\\HotelServe\\HotelServe0107\\HotelServe\\HotelServe\\Repositories\\MemberRepository.cs",
               "RelativeToolTip": "HotelServe\\Repositories\\MemberRepository.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAiwEUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T05:26:49.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MemberController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\0108\\HotelServe\\HotelServe0107\\HotelServe\\HotelServe\\Controllers\\BackgroundControllers\\MemberController.cs",
               "RelativeDocumentMoniker": "HotelServe\\Controllers\\BackgroundControllers\\MemberController.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\0108\\HotelServe\\HotelServe0107\\HotelServe\\HotelServe\\Controllers\\BackgroundControllers\\MemberController.cs",
               "RelativeToolTip": "HotelServe\\Controllers\\BackgroundControllers\\MemberController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAmwEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAADwvysAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T05:26:42.803Z"
+              "WhenOpened": "2025-01-08T05:26:42.803Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -43,11 +43,12 @@ namespace HotelServe.Controllers.BackgroundControllers
             return Ok(members);
         }
 
-        // 新增會員
+        // 新增員工
         [HttpPost]
         public ActionResult AddMember(Member member)
         {
             member.CreatedAt = DateTime.Now; // 設置當前時間
+            member.Role = 1; // 默認設置 role = 1
             bool isRegistered = _service.RegisterMember(member);
 
             if (isRegistered)
