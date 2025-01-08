@@ -10,11 +10,29 @@ namespace HotelServe.Repositories
         {
         }
 
-        // 獲取所有會員資料
-        public IEnumerable<Member> GetAllMembers()
+        //// 獲取所有會員資料
+        //public IEnumerable<Member> GetAllMembers()
+        //{
+        //    string sql = @"SELECT Id, FullName, Email, Countries, Phone, Birth, CreatedAt, Locked
+        //           FROM Login"; // 確保 Id 被選取
+        //    return GetAll(sql);
+        //}
+
+        // 獲取 role = 0 的會員
+        public IEnumerable<Member> GetMembersByRole0()
         {
-            string sql = @"SELECT Id, FullName, Email, Countries, Phone, Birth, CreatedAt, Locked
-                   FROM Login"; // 確保 Id 被選取
+            string sql = @"SELECT Id, FullName, Email, Countries, Phone, Birth, CreatedAt, Locked, Role
+                           FROM Login
+                           WHERE Role = 0";
+            return GetAll(sql);
+        }
+
+        // 獲取 role = 1 的會員
+        public IEnumerable<Member> GetMembersByRole1()
+        {
+            string sql = @"SELECT Id, FullName, Email, Countries, Phone, Birth, CreatedAt, Locked, Role
+                           FROM Login
+                           WHERE Role = 1";
             return GetAll(sql);
         }
 

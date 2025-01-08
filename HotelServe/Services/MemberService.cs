@@ -15,9 +15,21 @@ namespace HotelServe.Services
         }
 
         // 獲取所有會員
-        public List<Member> GetAllMembers()
+        //public List<Member> GetAllMembers()
+        //{
+        //    return _repository.GetAllMembers().ToList(); // 將 IEnumerable 轉為 List
+        //}
+
+        // 獲取 role = 0 的會員
+        public List<Member> GetMembersByRole0()
         {
-            return _repository.GetAllMembers().ToList(); // 將 IEnumerable 轉為 List
+            return _repository.GetMembersByRole0().ToList();
+        }
+
+        // 獲取 role = 1 的會員
+        public List<Member> GetMembersByRole1()
+        {
+            return _repository.GetMembersByRole1().ToList();
         }
 
         // 新增會員

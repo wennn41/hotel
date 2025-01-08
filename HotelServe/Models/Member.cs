@@ -10,5 +10,6 @@
         public DateTime? Birth { get; set; }      // 出生日期
         public DateTime CreatedAt { get; set; }   // 建立日期
         public bool Locked { get; set; }          // 是否鎖定
+        public int Role { get; set; }                // 角色
     }
 }

@@ -20,10 +20,26 @@ namespace HotelServe.Controllers.BackgroundControllers
 
 
         // 獲取所有會員
-        [HttpGet]
-        public ActionResult<IEnumerable<Member>> GetMembers()
+        //[HttpGet]
+        //public ActionResult<IEnumerable<Member>> GetMembers()
+        //{
+        //    var members = _service.GetAllMembers();
+        //    return Ok(members);
+        //}
+
+        // 獲取 role = 0 的會員
+        [HttpGet("role0")]
+        public ActionResult<IEnumerable<Member>> GetMembersByRole0()
         {
-            var members = _service.GetAllMembers();
+            var members = _service.GetMembersByRole0();
+            return Ok(members);
+        }
+
+        // 獲取 role = 1 的會員
+        [HttpGet("role1")]
+        public ActionResult<IEnumerable<Member>> GetMembersByRole1()
+        {
+            var members = _service.GetMembersByRole1();
             return Ok(members);
         }
 
