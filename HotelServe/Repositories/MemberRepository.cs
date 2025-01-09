@@ -87,5 +87,25 @@ Phone = @Phone,
             return ExecuteScalar<int>(query, new { Email = email }) > 0;
         }
 
+        // 在 MemberRepository 中新增方法，用於查詢會員的訂單歷史紀錄
+        public IEnumerable<dynamic> GetMemberOrderHistory(int memberId)
+        {
+            string sql = @"
+    SELECT 
+        o.Id AS OrderId,
+        o.MemberId,
+        l.FullName AS MemberName, -- 從 Login 表提取 FullName
+        o.OrderDate,
+        o.TotalAmount,
+        o.OrderStatus,
+        rt.Name AS RoomTypeName
+    FROM Orders o
+    INNER JOIN Login l ON o.MemberId = l.Id -- 關聯 Login 表
+    INNER JOIN OrderDetails od ON o.Id = od.OrderId
+    INNER JOIN RoomType rt ON od.RoomTypeId = rt.Id
+    WHERE o.MemberId = @MemberId";
+
+            return _dbConnection.Query(sql, new { MemberId = memberId });
+        }
     }
 }

@@ -77,5 +77,15 @@ namespace HotelServe.Services
             );
         }
 
+        // 在 MemberService 中新增方法，用於處理會員訂單歷史紀錄的業務邏輯
+        public List<dynamic> GetOrderHistory(int memberId)
+        {
+            // 檢查會員 ID 是否有效，避免非法請求
+            if (memberId <= 0)
+                throw new ArgumentException("會員 ID 無效");
+
+            // 調用 Repository 層的數據訪問方法，獲取會員訂單歷史紀錄
+            return _repository.GetMemberOrderHistory(memberId).ToList();
+        }
     }
 }

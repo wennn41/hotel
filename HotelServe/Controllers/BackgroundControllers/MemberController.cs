@@ -99,5 +99,24 @@ namespace HotelServe.Controllers.BackgroundControllers
             else
                 return NotFound("找不到要刪除的會員");
         }
+
+        // 在 MemberController 中新增 API，用於獲取會員的訂單歷史紀錄
+        [HttpGet("{memberId}/order-history")]  
+        public ActionResult<IEnumerable<dynamic>> GetOrderHistory(int memberId)
+        {
+            // 檢查會員 ID 是否有效，避免處理無效請求
+            if (memberId <= 0)
+                return BadRequest("會員 ID 無效");
+
+            // 調用 Service 層，獲取會員的訂單歷史紀錄
+            var orderHistory = _service.GetOrderHistory(memberId);
+
+            // 如果結果為空或不存在，返回 404 Not Found
+            if (orderHistory == null || !orderHistory.Any())
+                return NotFound("該會員沒有訂單記錄");
+
+            // 返回 200 OK，並附帶訂單歷史紀錄數據
+            return Ok(orderHistory);
+        }
     }
 }
