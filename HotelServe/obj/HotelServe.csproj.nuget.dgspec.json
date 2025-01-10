@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\0108\\HotelServe\\HotelServe0107\\HotelServe\\HotelServe\\HotelServe.csproj": {}
+    "C:\\Users\\user\\Desktop\\0110\\HotelServe\\HotelServe0107\\HotelServe\\HotelServe\\HotelServe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\0108\\HotelServe\\HotelServe0107\\HotelServe\\HotelServe\\HotelServe.csproj": {
+    "C:\\Users\\user\\Desktop\\0110\\HotelServe\\HotelServe0107\\HotelServe\\HotelServe\\HotelServe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\0108\\HotelServe\\HotelServe0107\\HotelServe\\HotelServe\\HotelServe.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\0110\\HotelServe\\HotelServe0107\\HotelServe\\HotelServe\\HotelServe.csproj",
         "projectName": "HotelServe",
-        "projectPath": "C:\\Users\\user\\Desktop\\0108\\HotelServe\\HotelServe0107\\HotelServe\\HotelServe\\HotelServe.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\0110\\HotelServe\\HotelServe0107\\HotelServe\\HotelServe\\HotelServe.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\0108\\HotelServe\\HotelServe0107\\HotelServe\\HotelServe\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\0110\\HotelServe\\HotelServe0107\\HotelServe\\HotelServe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
